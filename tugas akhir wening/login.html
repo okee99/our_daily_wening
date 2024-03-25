@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Login</title>
+    <link rel="stylesheet" href="styles log in.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Our Daily Login</h1>
+        <form action="#">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button id="loginButton">Log In</button>
+            </form>
+        </div>
+        <p>Don't have an account? <a href="register.html">Register here</a>.</p>
+    </div>
+</div>
+
+<script>
+    document.getElementById("loginButton").onclick = function() {
+        window.location.href = "home page.html";
+    };
+</script>
+</body>
+</html>
