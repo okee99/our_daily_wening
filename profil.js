@@ -1,12 +1,12 @@
 
 let userPostsData = [
     {
-        image: "./po",
+        image: "./po.webp",
         caption: "Day 1 menjadi actor sangat melelahkan... #mugkinbelumterbiasa",
         likes: 3251
     },
     {
-        image: "./pooo",
+        image: "./pooo.webp",
         caption: "Keren juga hasil jepretan wartawan",
         likes: 32654
     }
