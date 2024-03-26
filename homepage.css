@@ -6,7 +6,7 @@ body {
 
 header {
     background-color: #333;
-    background-image: url('bunga.jpg');
+    background-image: url('./bunga.jpg');
     background-size: cover;
     background-position: center;
     color: #c5b4b4;
